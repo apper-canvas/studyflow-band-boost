@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "courseId": 1,
+    "dayOfWeek": "Monday",
+    "startTime": "09:00",
+    "endTime": "10:30",
+    "location": "Science Building 204"
+  },
+  {
+    "Id": 2,
+    "courseId": 1,
+    "dayOfWeek": "Wednesday",
+    "startTime": "09:00",
+    "endTime": "10:30",
+    "location": "Science Building 204"
+  },
+  {
+    "Id": 3,
+    "courseId": 1,
+    "dayOfWeek": "Friday",
+    "startTime": "09:00",
+    "endTime": "10:30",
+    "location": "Science Building 204"
+  },
+  {
+    "Id": 4,
+    "courseId": 2,
+    "dayOfWeek": "Tuesday",
+    "startTime": "11:00",
+    "endTime": "12:30",
+    "location": "Math Hall 301"
+  },
+  {
+    "Id": 5,
+    "courseId": 2,
+    "dayOfWeek": "Thursday",
+    "startTime": "11:00",
+    "endTime": "12:30",
+    "location": "Math Hall 301"
+  },
+  {
+    "Id": 6,
+    "courseId": 3,
+    "dayOfWeek": "Monday",
+    "startTime": "13:00",
+    "endTime": "14:30",
+    "location": "Liberal Arts 102"
+  },
+  {
+    "Id": 7,
+    "courseId": 3,
+    "dayOfWeek": "Wednesday",
+    "startTime": "13:00",
+    "endTime": "14:30",
+    "location": "Liberal Arts 102"
+  },
+  {
+    "Id": 8,
+    "courseId": 4,
+    "dayOfWeek": "Tuesday",
+    "startTime": "14:00",
+    "endTime": "15:30",
+    "location": "Psychology Building 205"
+  },
+  {
+    "Id": 9,
+    "courseId": 4,
+    "dayOfWeek": "Thursday",
+    "startTime": "14:00",
+    "endTime": "15:30",
+    "location": "Psychology Building 205"
+  },
+  {
+    "Id": 10,
+    "courseId": 5,
+    "dayOfWeek": "Monday",
+    "startTime": "10:30",
+    "endTime": "12:00",
+    "location": "Liberal Arts 204"
+  },
+  {
+    "Id": 11,
+    "courseId": 5,
+    "dayOfWeek": "Friday",
+    "startTime": "10:30",
+    "endTime": "12:00",
+    "location": "Liberal Arts 204"
+  }
+]

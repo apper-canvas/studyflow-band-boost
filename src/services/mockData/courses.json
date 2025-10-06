@@ -1,0 +1,76 @@
+[
+  {
+    "Id": 1,
+    "name": "Introduction to Computer Science",
+    "code": "CS 101",
+    "instructor": "Dr. Sarah Mitchell",
+    "color": "#6366f1",
+    "targetGrade": 90,
+    "creditHours": 4,
+    "gradeCategories": [
+      { "id": "1", "name": "Assignments", "weight": 30 },
+      { "id": "2", "name": "Midterm", "weight": 25 },
+      { "id": "3", "name": "Final Exam", "weight": 35 },
+      { "id": "4", "name": "Participation", "weight": 10 }
+    ]
+  },
+  {
+    "Id": 2,
+    "name": "Calculus II",
+    "code": "MATH 202",
+    "instructor": "Prof. James Chen",
+    "color": "#8b5cf6",
+    "targetGrade": 85,
+    "creditHours": 4,
+    "gradeCategories": [
+      { "id": "5", "name": "Homework", "weight": 20 },
+      { "id": "6", "name": "Quizzes", "weight": 25 },
+      { "id": "7", "name": "Midterms", "weight": 30 },
+      { "id": "8", "name": "Final Exam", "weight": 25 }
+    ]
+  },
+  {
+    "Id": 3,
+    "name": "World History",
+    "code": "HIST 150",
+    "instructor": "Dr. Emily Rodriguez",
+    "color": "#ec4899",
+    "targetGrade": 88,
+    "creditHours": 3,
+    "gradeCategories": [
+      { "id": "9", "name": "Essays", "weight": 40 },
+      { "id": "10", "name": "Midterm", "weight": 25 },
+      { "id": "11", "name": "Final", "weight": 25 },
+      { "id": "12", "name": "Discussion", "weight": 10 }
+    ]
+  },
+  {
+    "Id": 4,
+    "name": "Introduction to Psychology",
+    "code": "PSYCH 101",
+    "instructor": "Dr. Michael Thompson",
+    "color": "#10b981",
+    "targetGrade": 92,
+    "creditHours": 3,
+    "gradeCategories": [
+      { "id": "13", "name": "Exams", "weight": 50 },
+      { "id": "14", "name": "Research Paper", "weight": 30 },
+      { "id": "15", "name": "Participation", "weight": 20 }
+    ]
+  },
+  {
+    "Id": 5,
+    "name": "English Literature",
+    "code": "ENG 201",
+    "instructor": "Prof. Linda Washington",
+    "color": "#f59e0b",
+    "targetGrade": 87,
+    "creditHours": 3,
+    "gradeCategories": [
+      { "id": "16", "name": "Essays", "weight": 45 },
+      { "id": "17", "name": "Midterm", "weight": 20 },
+      { "id": "18", "name": "Final", "weight": 25 },
+      { "id": "19", "name": "Class Work", "weight": 10 }
+    ]
+  }
+]

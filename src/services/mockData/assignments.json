@@ -1,0 +1,134 @@
+[
+  {
+    "Id": 1,
+    "courseId": 1,
+    "title": "Programming Assignment 1: Variables and Data Types",
+    "description": "Complete exercises on variables, data types, and basic operations in Python.",
+    "dueDate": "2024-01-22T23:59:00",
+    "priority": "high",
+    "completed": false,
+    "grade": null,
+    "category": "Assignments"
+  },
+  {
+    "Id": 2,
+    "courseId": 1,
+    "title": "Lab Exercise: Control Flow",
+    "description": "Implement loops and conditional statements to solve programming challenges.",
+    "dueDate": "2024-01-25T23:59:00",
+    "priority": "medium",
+    "completed": true,
+    "grade": 95,
+    "category": "Assignments"
+  },
+  {
+    "Id": 3,
+    "courseId": 2,
+    "title": "Homework Set 5: Integration Techniques",
+    "description": "Solve problems on integration by parts and trigonometric substitution.",
+    "dueDate": "2024-01-23T23:59:00",
+    "priority": "high",
+    "completed": false,
+    "grade": null,
+    "category": "Homework"
+  },
+  {
+    "Id": 4,
+    "courseId": 2,
+    "title": "Quiz 3: Derivatives and Applications",
+    "description": "In-class quiz covering derivative rules and related rates.",
+    "dueDate": "2024-01-24T14:00:00",
+    "priority": "high",
+    "completed": false,
+    "grade": null,
+    "category": "Quizzes"
+  },
+  {
+    "Id": 5,
+    "courseId": 3,
+    "title": "Essay: The Industrial Revolution",
+    "description": "Write a 5-page essay analyzing the social and economic impacts of the Industrial Revolution.",
+    "dueDate": "2024-01-28T23:59:00",
+    "priority": "high",
+    "completed": false,
+    "grade": null,
+    "category": "Essays"
+  },
+  {
+    "Id": 6,
+    "courseId": 3,
+    "title": "Reading Response: Chapter 8",
+    "description": "Write a one-page response to the assigned chapter reading.",
+    "dueDate": "2024-01-26T23:59:00",
+    "priority": "low",
+    "completed": true,
+    "grade": 88,
+    "category": "Discussion"
+  },
+  {
+    "Id": 7,
+    "courseId": 4,
+    "title": "Midterm Exam Prep",
+    "description": "Review chapters 1-5 and complete practice problems for the midterm exam.",
+    "dueDate": "2024-01-29T09:00:00",
+    "priority": "high",
+    "completed": false,
+    "grade": null,
+    "category": "Exams"
+  },
+  {
+    "Id": 8,
+    "courseId": 4,
+    "title": "Research Paper Outline",
+    "description": "Submit detailed outline for research paper on cognitive development.",
+    "dueDate": "2024-01-27T23:59:00",
+    "priority": "medium",
+    "completed": false,
+    "grade": null,
+    "category": "Research Paper"
+  },
+  {
+    "Id": 9,
+    "courseId": 5,
+    "title": "Literary Analysis: Shakespeare's Sonnets",
+    "description": "Analyze themes and literary devices in selected Shakespeare sonnets.",
+    "dueDate": "2024-01-30T23:59:00",
+    "priority": "high",
+    "completed": false,
+    "grade": null,
+    "category": "Essays"
+  },
+  {
+    "Id": 10,
+    "courseId": 5,
+    "title": "Discussion Post: Romanticism",
+    "description": "Post your thoughts on Romantic literature and respond to two classmates.",
+    "dueDate": "2024-01-24T23:59:00",
+    "priority": "low",
+    "completed": true,
+    "grade": 92,
+    "category": "Class Work"
+  },
+  {
+    "Id": 11,
+    "courseId": 1,
+    "title": "Midterm Project Proposal",
+    "description": "Submit a proposal for your midterm programming project.",
+    "dueDate": "2024-02-01T23:59:00",
+    "priority": "medium",
+    "completed": false,
+    "grade": null,
+    "category": "Midterm"
+  },
+  {
+    "Id": 12,
+    "courseId": 2,
+    "title": "Homework Set 6: Series Convergence",
+    "description": "Complete problems on series convergence tests and applications.",
+    "dueDate": "2024-01-31T23:59:00",
+    "priority": "medium",
+    "completed": false,
+    "grade": null,
+    "category": "Homework"
+  }
+]
