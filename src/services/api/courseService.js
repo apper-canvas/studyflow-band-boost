@@ -26,26 +26,33 @@ export const courseService = {
     return course ? { ...course } : null;
   },
 
-  async create(course) {
+async create(course) {
     await delay();
     const courses = getStoredCourses();
     const maxId = courses.reduce((max, c) => Math.max(max, c.Id), 0);
     const newCourse = {
       ...course,
       Id: maxId + 1,
-      gradeCategories: course.gradeCategories || []
+      gradeCategories: course.gradeCategories || [],
+      semester: course.semester || null,
+      credits: course.credits || 3
     };
     courses.push(newCourse);
     saveCourses(courses);
     return { ...newCourse };
   },
 
-  async update(id, data) {
+async update(id, data) {
     await delay();
     const courses = getStoredCourses();
     const index = courses.findIndex((c) => c.Id === parseInt(id));
     if (index !== -1) {
-      courses[index] = { ...courses[index], ...data };
+      courses[index] = { 
+        ...courses[index], 
+        ...data,
+        semester: data.semester !== undefined ? data.semester : courses[index].semester,
+        credits: data.credits !== undefined ? data.credits : courses[index].credits || 3
+      };
       saveCourses(courses);
       return { ...courses[index] };
     }
